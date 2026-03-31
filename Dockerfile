@@ -10,6 +10,8 @@ ENV ANDROID_BUILD_TOOLS "33.0.2"
 ENV ANDROID_HOME /android-sdk-linux
 ENV PATH="${PATH}:/android-sdk-linux/platform-tools/"
 
+Hellow world 
+
 # install OS packages
 RUN apt-get --quiet update --yes
 RUN apt-get --quiet install --yes wget apt-utils tar unzip lib32stdc++6 lib32z1 build-essential ruby ruby-dev
